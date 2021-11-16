@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="process_style.css" />
+    <title>Lost Moments – PROCESS</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo"><a href="index.html">Audrius Kriauciunas</a></h2>
+        <div class="toggle"></div>
+        <!--- toggle is for menu --->
+      </header>
+      <div class="wrapper">
+        <div class="featured">
+          <video
+            class="mpeg"
+            src="videos/walk on 11-5-2020-1521.mp4"
+            muted
+            loop
+            autoplay
+          ></video>
+        </div>
+      </div>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Lost Moments</h2>
+        <h3>process</h3>
+        <p>
+          This wearable technology has two electrodes, one above each eye, that
+          detect muscle contractions caused by blinking and trigger the camera,
+          residing in the place of a third eye, to take a photograph of what at
+          that moment is in front of the person wearing it.
+        </p>
+      </div>
+      <div>
+        <img src="images/_MG_9837.jpg" />
+        <img src="images/_MG_9847.JPG" />
+      </div>
+      <div class="text">
+        <br>
+        <br>
+        <p>
+          Dressed as a construction worker, with a bright fluorescent jacket and a white helmet I go hunting for the lost moments. Paradoxically, the outfit that is meant to stand out of the crowd makes me invisible and helps disguise my true intentions — to capture the lost moments at their purest. 
+        </p>
+      <div>
+        <img src="images/web_camouflage-1.jpg" />
+        <img src="images/web_camouflage-1-2.jpg" />
+      </div>
+
+      <!-- <ul class="social">
+        <li>
+          <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" /></a>
+        </li>
+      </ul> -->
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="process.html">process</a></li>
+        <!-- <li><a href="#">tutorial</a></li> -->
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+      const featured = document.querySelector(".featured");
+      const wrapper = document.querySelector(".wrapper");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+        featured.classList.toggle("active");
+        wrapper.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
