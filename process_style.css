@@ -165,24 +165,21 @@ img {
   height: 100vh;
   overflow: hidden;
   z-index: -1;
-  border: none;
 }
 .wrapper.active {
   right: 300px;
 }
 .featured {
   position: fixed;
-  width: calc(100vh * (765 / 576));
-  height: calc(
-    100vw * (576 / 765) + 1px
-  ); /* +1px removes viewport's side borders */
+  width: calc(100vh * (640 / 480));
+  height: calc(100vw * (480 / 640)); /* +1px removes viewport's side borders */
   min-width: 100%;
   min-height: 100%;
   top: 0;
   right: 0;
   transition: 0.5s;
   z-index: -1;
-  margin-top: -1px; /*removes viewport's top border */
+  /* margin-top: -1px; removes viewport's top border */
 }
 .featured.active {
   right: 300px;
