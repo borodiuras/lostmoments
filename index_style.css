@@ -209,7 +209,7 @@ img {
     font-size: 2em;
   }
   img {
-    min-width: 360px;
+    min-width: 300px;
     max-width: 75%;
   }
   video {
