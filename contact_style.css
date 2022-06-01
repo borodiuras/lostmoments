@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --trademark-blue: rgb(47, 0, 255);
+  --trademark-blue: rgb(142, 125, 226);
   background: var(--trademark-blue);
 }
 
@@ -163,14 +163,14 @@ header .logo a {
 .featured {
   position: fixed;
   width: calc(100vh * (640 / 480));
-  height: calc(100vw * (480 / 640)); /* +1px removes viewport's side borders */
+  height: calc(100vw * (480 / 640));
   min-width: 100%;
   min-height: 100%;
   top: 0;
   right: 0;
   transition: 0.5s;
   z-index: -1;
-  /* margin-top: -1px; removes viewport's top border */
+  margin-top: -1px; /*removes viewport's top border */
 }
 .featured.active {
   right: 300px;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="contact_style.css" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
     <title>Lost Moments – CONTACT</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
         <div class="featured">
           <video
             class="mpeg"
-            src="videos/walk on 11-5-2020-1 small.mp4"
+            src="videos/walk on 11-5-2020-1 web.mp4"
             muted
             loop
             autoplay
@@ -52,23 +52,11 @@
       <ul>
         <li><a href="index.html">home</a></li>
         <li><a href="process.html">process</a></li>
-        <!-- <li><a href="#">tutorial</a></li> -->
+        <li><a href="archive.html">archive</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
     </div>
 
-    <script>
-      const menuToggle = document.querySelector(".toggle");
-      const showcase = document.querySelector(".showcase");
-      const featured = document.querySelector(".featured");
-      const wrapper = document.querySelector(".wrapper");
-
-      menuToggle.addEventListener("click", () => {
-        menuToggle.classList.toggle("active");
-        showcase.classList.toggle("active");
-        featured.classList.toggle("active");
-        wrapper.classList.toggle("active");
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
