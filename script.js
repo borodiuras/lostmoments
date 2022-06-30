@@ -155,7 +155,7 @@ const imageIndexes4 = [
 const selectedIndex4 = null;
 
 imageIndexes4.forEach((i) => {
-  const image1 = document.createElement("img");
+  const image4 = document.createElement("img");
   image4.src = `images/walk on 4-9-2021/walk on 4-9-2021-${i}.jpg`;
   image4.alt = `Lost Moment number ${i} retrieved on 4-9-2021`;
   image4.classList.add("galleryImg");
